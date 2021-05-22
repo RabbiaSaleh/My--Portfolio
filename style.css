@@ -324,7 +324,7 @@ body {
 .profile
 {
    height: 520px;
-   width: 1000px;
+   width: 100%;
    position: absolute;
    background-color: rgb(228, 253, 252);
    padding: 10px;
@@ -445,6 +445,7 @@ h6
   background-color: rgb(214, 247, 248);
   /* margin-top: 4px; */
   height: 820px;
+  width: 100%;
 }
 .project > p{
   text-align: center;
@@ -529,6 +530,7 @@ textarea.form-control {
   background-color: #d7e4f0;
   height: 400px;
   margin-top: 5px;
+  width: 100%;
 }
 section #services {
   text-align: center;
