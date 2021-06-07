@@ -65,7 +65,7 @@ body {
   
   #header.header-transparent {
     background: transparent;
-  }
+  } 
   
   #header.header-scrolled {
     height: 60px;
@@ -84,6 +84,7 @@ body {
     top: 0;
     background-color:  #444141;
     border: 2px solid #393b3d ;
+    align-content: center;
   }
   
   .navbar ul {
@@ -422,6 +423,7 @@ a
   background: linear-gradient(to left, #493c69 , #8b5e33);
   margin-top: 80px;
   color: #f5e9e9;
+  width: 100%;
 }
 #about > p
 {
@@ -594,11 +596,12 @@ section #services li span {
 /* ======footer================= */
 .footer
 {
-  background-image: url("assets/img/footer-background.jpg");
+  background-image: url("img/footer-background.jpg");
   height: 160px;
   font-weight: bold;
   color: rgb(227, 245, 205);
   text-align: center;
+  width: 100%;
 }
 .footer > p
 {
@@ -618,4 +621,3 @@ section #services li span {
   color: #89253e;
 }
 
-    
